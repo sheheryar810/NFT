@@ -1,0 +1,1262 @@
+{
+    "Assets_Tables": [
+        {
+            "name": "id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "token_id",
+            "type": "STRING"
+        },
+        {
+            "name": "num_sales",
+            "type": "INTEGER"
+        },
+        {
+            "name": "background_color",
+            "type": "STRING"
+        },
+        {
+            "name": "image_url",
+            "type": "STRING"
+        },
+        {
+            "name": "image_preview_url",
+            "type": "STRING"
+        },
+        {
+            "name": "image_thumbnail_url",
+            "type": "STRING"
+        },
+        {
+            "name": "image_original_url",
+            "type": "STRING"
+        },
+        {
+            "name": "animation_url",
+            "type": "STRING"
+        },
+        {
+            "name": "animation_original_url",
+            "type": "STRING"
+        },
+        {
+            "name": "name",
+            "type": "STRING"
+        },
+        {
+            "name": "description",
+            "type": "STRING"
+        },
+        {
+            "name": "external_link",
+            "type": "STRING"
+        },
+        {
+            "name": "asset_contract",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "asset_contract_type",
+                    "type": "STRING"
+                },
+                {
+                    "name": "created_date",
+                    "type": "TIMESTAMP"
+                },
+                {
+                    "name": "name",
+                    "type": "STRING"
+                },
+                {
+                    "name": "nft_version",
+                    "type": "STRING"
+                },
+                {
+                    "name": "opensea_version",
+                    "type": "STRING"
+                },
+                {
+                    "name": "owner",
+                    "type": "STRING"
+                },
+                {
+                    "name": "schema_name",
+                    "type": "STRING"
+                },
+                {
+                    "name": "symbol",
+                    "type": "STRING"
+                },
+                {
+                    "name": "total_supply",
+                    "type": "STRING"
+                },
+                {
+                    "name": "description",
+                    "type": "STRING"
+                },
+                {
+                    "name": "external_link",
+                    "type": "STRING"
+                },
+                {
+                    "name": "image_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "default_to_fiat",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "dev_buyer_fee_basis_points",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "dev_seller_fee_basis_points",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "only_proxied_transfers",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "opensea_buyer_fee_basis_points",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "opensea_seller_fee_basis_points",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "buyer_fee_basis_points",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "seller_fee_basis_points",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "payout_address",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "permalink",
+            "type": "STRING"
+        },
+        {
+            "name": "collection",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "banner_image_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "chat_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "created_date",
+                    "type": "TIMESTAMP"
+                },
+                {
+                    "name": "default_to_fiat",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "description",
+                    "type": "STRING"
+                },
+                {
+                    "name": "dev_buyer_fee_basis_points",
+                    "type": "STRING"
+                },
+                {
+                    "name": "dev_seller_fee_basis_points",
+                    "type": "STRING"
+                },
+                {
+                    "name": "discord_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "display_data",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "card_display_style",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "external_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "featured",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "featured_image_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "hidden",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "safelist_request_status",
+                    "type": "STRING"
+                },
+                {
+                    "name": "image_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "is_subject_to_whitelist",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "large_image_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "medium_username",
+                    "type": "STRING"
+                },
+                {
+                    "name": "name",
+                    "type": "STRING"
+                },
+                {
+                    "name": "only_proxied_transfers",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "opensea_buyer_fee_basis_points",
+                    "type": "STRING"
+                },
+                {
+                    "name": "opensea_seller_fee_basis_points",
+                    "type": "STRING"
+                },
+                {
+                    "name": "payout_address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "require_email",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "short_description",
+                    "type": "STRING"
+                },
+                {
+                    "name": "slug",
+                    "type": "STRING"
+                },
+                {
+                    "name": "telegram_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "twitter_username",
+                    "type": "STRING"
+                },
+                {
+                    "name": "instagram_username",
+                    "type": "STRING"
+                },
+                {
+                    "name": "wiki_url",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "decimals",
+            "type": "INTEGER"
+        },
+        {
+            "name": "token_metadata",
+            "type": "STRING"
+        },
+        {
+            "name": "owner",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "username",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "profile_img_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "config",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "sell_orders",
+            "type": "record",
+            "mode": "repeated",
+            "fields": [
+                {
+                    "name": "created_date",
+                    "type": "TIMESTAMP"
+                },
+                {
+                    "name": "closing_date",
+                    "type": "TIMESTAMP"
+                },
+                {
+                    "name": "closing_extendable",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "expiration_time",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "listing_time",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "order_hash",
+                    "type": "STRING"
+                },
+                {
+                    "name": "metadata",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "asset",
+                            "type": "record",
+                            "fields": [
+                                {
+                                    "name": "id",
+                                    "type": "STRING"
+                                },
+                                {
+                                    "name": "address",
+                                    "type": "STRING"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "schema",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "exchange",
+                    "type": "STRING"
+                },
+                {
+                    "name": "maker",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "user",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "profile_img_url",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "address",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "config",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "taker",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "user",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "profile_img_url",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "address",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "config",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "current_price",
+                    "type": "STRING"
+                },
+                {
+                    "name": "current_bounty",
+                    "type": "STRING"
+                },
+                {
+                    "name": "bounty_multiple",
+                    "type": "STRING"
+                },
+                {
+                    "name": "maker_relayer_fee",
+                    "type": "STRING"
+                },
+                {
+                    "name": "taker_relayer_fee",
+                    "type": "STRING"
+                },
+                {
+                    "name": "maker_protocol_fee",
+                    "type": "STRING"
+                },
+                {
+                    "name": "taker_protocol_fee",
+                    "type": "STRING"
+                },
+                {
+                    "name": "maker_referrer_fee",
+                    "type": "STRING"
+                },
+                {
+                    "name": "fee_recipient",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "user",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "profile_img_url",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "address",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "config",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "fee_method",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "side",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "sale_kind",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "target",
+                    "type": "STRING"
+                },
+                {
+                    "name": "how_to_call",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "calldata",
+                    "type": "STRING"
+                },
+                {
+                    "name": "replacement_pattern",
+                    "type": "STRING"
+                },
+                {
+                    "name": "static_target",
+                    "type": "STRING"
+                },
+                {
+                    "name": "static_extradata",
+                    "type": "STRING"
+                },
+                {
+                    "name": "payment_token",
+                    "type": "STRING"
+                },
+                {
+                    "name": "payment_token_contract",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "id",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "symbol",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "address",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "image_url",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "name",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "decimals",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "eth_price",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "usd_price",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "base_price",
+                    "type": "STRING"
+                },
+                {
+                    "name": "extra",
+                    "type": "STRING"
+                },
+                {
+                    "name": "quantity",
+                    "type": "STRING"
+                },
+                {
+                    "name": "salt",
+                    "type": "STRING"
+                },
+                {
+                    "name": "v",
+                    "type": "STRING"
+                },
+                {
+                    "name": "r",
+                    "type": "STRING"
+                },
+                {
+                    "name": "s",
+                    "type": "STRING"
+                },
+                {
+                    "name": "approved_on_chain",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "cancelled",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "finalized",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "marked_invalid",
+                    "type": "BOOLEAN"
+                },
+                {
+                    "name": "prefixed_hash",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "creator",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "username",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "profile_img_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "config",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "traits",
+            "type": "record",
+            "mode": "repeated",
+            "fields": [
+                {
+                    "name": "trait_type",
+                    "type": "STRING"
+                },
+                {
+                    "name": "value",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "display_type",
+                    "type": "STRING"
+                },
+                {
+                    "name": "max_value",
+                    "type": "STRING"
+                },
+                {
+                    "name": "trait_count",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "order",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "last_sale",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "asset",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "token_id",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "decimals",
+                            "type": "INTEGER"
+                        }
+                    ]
+                },
+                {
+                    "name": "asset_bundle",
+                    "type": "STRING"
+                },
+                {
+                    "name": "event_type",
+                    "type": "STRING"
+                },
+                {
+                    "name": "event_timestamp",
+                    "type": "TIMESTAMP"
+                },
+                {
+                    "name": "auction_type",
+                    "type": "STRING"
+                },
+                {
+                    "name": "total_price",
+                    "type": "STRING"
+                },
+                {
+                    "name": "payment_token",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "id",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "symbol",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "address",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "image_url",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "name",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "decimals",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "eth_price",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "usd_price",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "transaction",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "block_hash",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "block_number",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "from_account",
+                            "type": "record",
+                            "fields": [
+                                {
+                                    "name": "user",
+                                    "type": "record",
+                                    "fields": [
+                                        {
+                                            "name": "username",
+                                            "type": "STRING"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "profile_img_url",
+                                    "type": "STRING"
+                                },
+                                {
+                                    "name": "address",
+                                    "type": "STRING"
+                                },
+                                {
+                                    "name": "config",
+                                    "type": "STRING"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "id",
+                            "type": "INTEGER"
+                        },
+                        {
+                            "name": "timestamp",
+                            "type": "TIMESTAMP"
+                        },
+                        {
+                            "name": "to_account",
+                            "type": "record",
+                            "fields": [
+                                {
+                                    "name": "user",
+                                    "type": "record",
+                                    "fields": [
+                                        {
+                                            "name": "username",
+                                            "type": "STRING"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "profile_img_url",
+                                    "type": "STRING"
+                                },
+                                {
+                                    "name": "address",
+                                    "type": "STRING"
+                                },
+                                {
+                                    "name": "config",
+                                    "type": "STRING"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "transaction_hash",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "transaction_index",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "created_date",
+                    "type": "TIMESTAMP"
+                },
+                {
+                    "name": "quantity",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "top_bid",
+            "type": "STRING"
+        },
+        {
+            "name": "listing_date",
+            "type": "STRING"
+        },
+        {
+            "name": "is_presale",
+            "type": "BOOLEAN"
+        },
+        {
+            "name": "transfer_fee_payment_token",
+            "type": "STRING"
+        },
+        {
+            "name": "transfer_fee",
+            "type": "STRING"
+        }
+    ],
+    "Sell_Orders_Tables": [
+        {
+            "name": "created_date",
+            "type": "TIMESTAMP"
+        },
+        {
+            "name": "closing_date",
+            "type": "TIMESTAMP"
+        },
+        {
+            "name": "closing_extendable",
+            "type": "BOOLEAN"
+        },
+        {
+            "name": "expiration_time",
+            "type": "INTEGER"
+        },
+        {
+            "name": "listing_time",
+            "type": "INTEGER"
+        },
+        {
+            "name": "order_hash",
+            "type": "STRING"
+        },
+        {
+            "name": "metadata",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "asset",
+                    "type": "record",
+                    "fields": [
+                        {
+                            "name": "id",
+                            "type": "STRING"
+                        },
+                        {
+                            "name": "address",
+                            "type": "STRING"
+                        }
+                    ]
+                },
+                {
+                    "name": "schema",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "exchange",
+            "type": "STRING"
+        },
+        {
+            "name": "maker",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "profile_img_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "config",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "taker",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "profile_img_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "config",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "current_price",
+            "type": "STRING"
+        },
+        {
+            "name": "current_bounty",
+            "type": "STRING"
+        },
+        {
+            "name": "bounty_multiple",
+            "type": "STRING"
+        },
+        {
+            "name": "maker_relayer_fee",
+            "type": "STRING"
+        },
+        {
+            "name": "taker_relayer_fee",
+            "type": "STRING"
+        },
+        {
+            "name": "maker_protocol_fee",
+            "type": "STRING"
+        },
+        {
+            "name": "taker_protocol_fee",
+            "type": "STRING"
+        },
+        {
+            "name": "maker_referrer_fee",
+            "type": "STRING"
+        },
+        {
+            "name": "fee_recipient",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "profile_img_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "config",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "fee_method",
+            "type": "INTEGER"
+        },
+        {
+            "name": "side",
+            "type": "INTEGER"
+        },
+        {
+            "name": "sale_kind",
+            "type": "INTEGER"
+        },
+        {
+            "name": "target",
+            "type": "STRING"
+        },
+        {
+            "name": "how_to_call",
+            "type": "INTEGER"
+        },
+        {
+            "name": "calldata",
+            "type": "STRING"
+        },
+        {
+            "name": "replacement_pattern",
+            "type": "STRING"
+        },
+        {
+            "name": "static_target",
+            "type": "STRING"
+        },
+        {
+            "name": "static_extradata",
+            "type": "STRING"
+        },
+        {
+            "name": "payment_token",
+            "type": "STRING"
+        },
+        {
+            "name": "payment_token_contract",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "symbol",
+                    "type": "STRING"
+                },
+                {
+                    "name": "address",
+                    "type": "STRING"
+                },
+                {
+                    "name": "image_url",
+                    "type": "STRING"
+                },
+                {
+                    "name": "name",
+                    "type": "STRING"
+                },
+                {
+                    "name": "decimals",
+                    "type": "INTEGER"
+                },
+                {
+                    "name": "eth_price",
+                    "type": "STRING"
+                },
+                {
+                    "name": "usd_price",
+                    "type": "STRING"
+                }
+            ]
+        },
+        {
+            "name": "base_price",
+            "type": "STRING"
+        },
+        {
+            "name": "extra",
+            "type": "STRING"
+        },
+        {
+            "name": "quantity",
+            "type": "STRING"
+        },
+        {
+            "name": "salt",
+            "type": "STRING"
+        },
+        {
+            "name": "v",
+            "type": "STRING"
+        },
+        {
+            "name": "r",
+            "type": "STRING"
+        },
+        {
+            "name": "s",
+            "type": "STRING"
+        },
+        {
+            "name": "approved_on_chain",
+            "type": "BOOLEAN"
+        },
+        {
+            "name": "cancelled",
+            "type": "BOOLEAN"
+        },
+        {
+            "name": "finalized",
+            "type": "BOOLEAN"
+        },
+        {
+            "name": "marked_invalid",
+            "type": "BOOLEAN"
+        },
+        {
+            "name": "prefixed_hash",
+            "type": "STRING"
+        },
+        {
+            "name": "collection_name",
+            "type": "STRING"
+        },
+        {
+            "name": "token_id",
+            "type": "STRING"
+        }
+    ],
+    "Traits_Tables": [
+        {
+            "name": "trait_type",
+            "type": "STRING"
+        },
+        {
+            "name": "value",
+            "type": "STRING"
+        },
+        {
+            "name": "display_type",
+            "type": "STRING"
+        },
+        {
+            "name": "max_value",
+            "type": "STRING"
+        },
+        {
+            "name": "trait_count",
+            "type": "INTEGER"
+        },
+        {
+            "name": "order",
+            "type": "STRING"
+        },
+        {
+            "name": "collection_name",
+            "type": "STRING"
+        },
+        {
+            "name": "token_id",
+            "type": "STRING"
+        }
+    ],
+    "Transaction_Tables": [
+        {
+            "name": "blockNumber",
+            "type": "STRING"
+        },
+        {
+            "name": "timeStamp",
+            "type": "STRING"
+        },
+        {
+            "name": "hash",
+            "type": "STRING"
+        },
+        {
+            "name": "nonce",
+            "type": "STRING"
+        },
+        {
+            "name": "blockHash",
+            "type": "STRING"
+        },
+        {
+            "name": "from",
+            "type": "STRING"
+        },
+        {
+            "name": "contractAddress",
+            "type": "STRING"
+        },
+        {
+            "name": "to",
+            "type": "STRING"
+        },
+        {
+            "name": "tokenID",
+            "type": "STRING"
+        },
+        {
+            "name": "tokenName",
+            "type": "STRING"
+        },
+        {
+            "name": "tokenSymbol",
+            "type": "STRING"
+        },
+        {
+            "name": "tokenDecimal",
+            "type": "STRING"
+        },
+        {
+            "name": "transactionIndex",
+            "type": "STRING"
+        },
+        {
+            "name": "gas",
+            "type": "STRING"
+        },
+        {
+            "name": "gasPrice",
+            "type": "STRING"
+        },
+        {
+            "name": "gasUsed",
+            "type": "STRING"
+        },
+        {
+            "name": "cumulativeGasUsed",
+            "type": "STRING"
+        },
+        {
+            "name": "input",
+            "type": "STRING"
+        },
+        {
+            "name": "confirmations",
+            "type": "STRING"
+        }
+    ],
+    "assets_tableId": "new_assets",
+    "sell_orders_tableId": "new_sell_orders",
+    "traits_tableId": "new_traits",
+    "transaction_tableId": "new_transaction",
+    "dataSetId": "lostpoet_mongo_atlas",
+    "merge_assets_tableId": "new_merge_assets",
+    "merge_sell_orders_tableId": "new_merge_sell_orders",
+    "merge_traits_tableId": "new_merge_traits"
+}
